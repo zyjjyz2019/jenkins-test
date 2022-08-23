@@ -5,7 +5,6 @@ node {
         sh 'cat Jenkinsfile'
     }
     stage('Test') {
-        checkout scm
         echo 'Building dev'
         sh 'git branch'
         sh 'cat Jenkinsfile'
