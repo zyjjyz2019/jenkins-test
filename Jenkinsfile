@@ -1,11 +1,11 @@
 node {
     stage('Build') {
         checkout scm
-        sh 'ls'
+        sh 'cat Jenkinsfile'
         echo 'Building main'
     }
     stage('Test') {
-        sh 'ls'
+        sh 'cat Jenkinsfile'
         echo 'Testing main'
     }
     stage('Deploy') {
