@@ -10,7 +10,7 @@ node {
         sh 'cat Jenkinsfile'
     }
     stage('Deploy') {
-        echo 'Building dev...'
+        echo 'Building dev....'
         sh 'git branch'
         sh 'cat Jenkinsfile'
     }
