@@ -1,15 +1,18 @@
 node {
     stage('Build') {
-        sh 'git branch'
         echo 'Building dev'
+        sh 'git branch'
+        sh 'cat Jenkinsfile'
     }
     stage('Test') {
         checkout scm
+        echo 'Building dev'
         sh 'git branch'
-        echo 'Testing dev'
+        sh 'cat Jenkinsfile'
     }
     stage('Deploy') {
+        echo 'Building dev'
         sh 'git branch'
-        echo 'Deploying dev'
+        sh 'cat Jenkinsfile'
     }
 }
