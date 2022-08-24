@@ -5,7 +5,7 @@ node {
         sh 'cat Jenkinsfile'
     }
     stage('Test') {
-        echo 'Building dev...'
+        echo 'Building dev....'
         sh 'git branch'
         sh 'cat Jenkinsfile'
     }
