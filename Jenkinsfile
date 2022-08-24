@@ -1,5 +1,6 @@
 node {
     stage('Build') {
+        checkout scm
         echo 'Building dev v1.3'
         sh 'git branch'
         sh 'cat Jenkinsfile'
