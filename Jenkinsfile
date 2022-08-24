@@ -1,10 +1,10 @@
 node {
     stage('Build') {
-        sh 'git branch -r'
+        sh 'git branch'
         sh 'ls'
         checkout scm
         echo 'Building dev v2.1'
-        sh 'git branch -r'
+        sh 'git branch'
         sh 'cat Jenkinsfile'
         sh 'ls'
     }
