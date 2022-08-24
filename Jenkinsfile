@@ -1,6 +1,6 @@
 node {
     stage('Build') {
-        checkout scm
+        //checkout scm
         sh 'cat Jenkinsfile'
         echo 'Building main'
     }
