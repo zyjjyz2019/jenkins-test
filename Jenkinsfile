@@ -2,8 +2,8 @@ node {
     stage('Build') {
         sh 'git branch'
         sh 'git status'
-        checkout scm
-        echo 'Building dev v2.4'
+        //checkout scm
+        echo 'Building dev v2.5'
         sh 'git branch'
         sh 'cat Jenkinsfile'
         sh 'git status'
