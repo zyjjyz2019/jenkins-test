@@ -1,6 +1,6 @@
 node {
     stage('Build') {
-        echo 'Building dev v1.2'
+        echo 'Building dev v1.3'
         sh 'git branch'
         sh 'cat Jenkinsfile'
     }
