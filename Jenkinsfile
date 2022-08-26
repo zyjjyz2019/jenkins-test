@@ -3,7 +3,7 @@ node {
         sh 'git branch'
         sh 'git status'
         checkout scm
-        echo 'Building dev v3.0'
+        echo 'Building dev v3.1'
         sh 'git branch'
         sh 'cat Jenkinsfile'
         sh 'git status'
